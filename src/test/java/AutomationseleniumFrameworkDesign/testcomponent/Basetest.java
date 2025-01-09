@@ -79,7 +79,7 @@ public class Basetest {
 		driver = initializeDriver();
 		lan = new Landingpage(driver);
 		lan.goTo();
-
+     System.out.println("hi");
 		return lan;
 
 	}
