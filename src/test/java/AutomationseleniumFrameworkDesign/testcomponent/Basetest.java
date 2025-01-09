@@ -63,15 +63,7 @@ public class Basetest {
 
 			driver = new FirefoxDriver();
 
-		} else if (browsername.equalsIgnoreCase("edge")) {
-
-			driver = new EdgeDriver();
-
-		} else if (browsername.equalsIgnoreCase("safari")) {
-
-			driver = new SafariDriver();
-
-		} else {
+		}  else {
 			throw new RuntimeException("Browser not supported: " + browsername);
 		}
 
